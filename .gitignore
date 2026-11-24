@@ -1,0 +1,23 @@
+# Game files are copyrighted (Hudson Soft / Konami): never commit them.
+*.bin
+*.BIN
+*.cue
+*.iso
+*.ISO
+*.img
+*.DIG
+*.dig
+*.ELF
+*.elf
+SLPM_*
+# Patch files go to Releases, not into the repository.
+*.bl3p
+__pycache__/
+*.py[cod]
+# PyInstaller's work (the .exe is built by .github/workflows/build-exe.yml)
+build/
+dist/
+*.spec
+.DS_Store
+Thumbs.db
+desktop.ini
